@@ -8,7 +8,7 @@ const webpack = require('webpack') //подключаем webpack для исп�
 const production = process.env.NODE_ENV === 'production'
 
 module.exports = {
-	entry: path.resolve(__dirname, '..', './src/index.ts'), //путь до папки src изменился
+	entry: path.resolve(__dirname, '..', './src/index.tsx'), //путь до папки src изменился
 	output: {
 		path: path.resolve(__dirname, '..', './dist'), //путь до папки dist изменился
 		filename: production
